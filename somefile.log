@@ -1,0 +1,426 @@
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T18:55:14.662Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 51559","timestamp":"2015-06-03T18:56:07.652Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:07.684Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T18:56:07.740Z"}
+{"level":"warn","message":"Error: ER_CANT_AGGREGATE_: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='\n    at Query.Sequence._packetToError (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:32:14)\n    at Query.ErrorPacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:78:18)\n    at Protocol._parsePacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:169:24)\n    at Parser.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Parser.js:62:12)\n    at Protocol.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:36:16)\n    at Socket.ondata (_stream_readable.js:540:20)\n    at Socket.emit (events.js:107:17)\n    at readableAddChunk (_stream_readable.js:163:16)\n    at Socket.Readable.push (_stream_readable.js:126:10)\n    at TCP.onread (net.js:538:20)\n    --------------------\n    at Query.Sequence (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:15:21)\n    at new Query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:11:12)\n    at Function.Connection.createQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:43:10)\n    at Connection.query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:90:26)\n    at Driver.execSimpleQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:91:11)\n    at Driver.find (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:133:7)\n    at Object.ChainFind.chain.all (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:193:16)\n    at Object.ChainFind.chain.run (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:152:16)\n    at Function.Model.model.find (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Model.js:431:9)\n    at async.waterfall.protocol.online (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\socket\\socketHandler.coffee:74:20)","timestamp":"2015-06-03T18:56:07.770Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T18:56:09.223Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T18:56:10.423Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T18:56:10.594Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:10.662Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:13.681Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:16.677Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:19.678Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:22.682Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:25.677Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:28.674Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:31.679Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:34.679Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:37.681Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:40.680Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:43.678Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:46.679Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:49.681Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:52.682Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:55.679Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:56:58.676Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:01.680Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:04.681Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:07.686Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:10.685Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:13.683Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:16.698Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:19.688Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:22.686Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:25.685Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:28.681Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:31.685Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:34.686Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:37.690Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:40.689Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:43.694Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:46.689Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:49.688Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:52.690Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:55.688Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:57:58.686Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:01.696Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:04.692Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:07.696Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:10.703Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:13.696Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:16.692Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:19.693Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:22.693Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:25.693Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:28.688Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:31.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:34.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:37.699Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:40.697Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:43.693Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:46.693Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:49.694Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:52.693Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:55.693Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:58:58.691Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:01.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:04.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:07.696Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:10.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:13.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:16.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:19.693Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:22.702Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:25.698Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:28.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:31.695Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:34.698Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:37.692Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:40.706Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:43.701Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:46.701Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:49.696Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:52.700Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:55.701Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T18:59:58.704Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T19:00:01.703Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T19:00:04.704Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T19:00:07.700Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T19:00:10.749Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T19:00:13.703Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T19:00:16.713Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T19:00:19.701Z"}
+{"level":"warn","message":"Another message type : HeartBeat","timestamp":"2015-06-03T19:00:22.704Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T19:00:25.617Z"}
+{"level":"info","message":"ㅇㅇ","timestamp":"2015-06-03T19:00:25.617Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T19:00:25.617Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T19:00:25.618Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:04:24.752Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 35449","timestamp":"2015-06-03T19:04:27.936Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T19:04:27.966Z"}
+{"level":"warn","message":"Error: ER_CANT_AGGREGATE_: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='\n    at Query.Sequence._packetToError (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:32:14)\n    at Query.ErrorPacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:78:18)\n    at Protocol._parsePacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:169:24)\n    at Parser.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Parser.js:62:12)\n    at Protocol.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:36:16)\n    at Socket.ondata (_stream_readable.js:540:20)\n    at Socket.emit (events.js:107:17)\n    at readableAddChunk (_stream_readable.js:163:16)\n    at Socket.Readable.push (_stream_readable.js:126:10)\n    at TCP.onread (net.js:538:20)\n    --------------------\n    at Query.Sequence (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:15:21)\n    at new Query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:11:12)\n    at Function.Connection.createQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:43:10)\n    at Connection.query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:90:26)\n    at Driver.execSimpleQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:91:11)\n    at Driver.find (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:133:7)\n    at Object.ChainFind.chain.all (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:193:16)\n    at Object.ChainFind.chain.run (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:152:16)\n    at Function.Model.model.find (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Model.js:431:9)\n    at async.waterfall.protocol.online (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\socket\\socketHandler.coffee:74:20)","timestamp":"2015-06-03T19:04:28.023Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T19:04:29.714Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T19:04:31.652Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T19:04:31.784Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T19:08:15.714Z"}
+{"level":"info","message":"ㅇㅇ","timestamp":"2015-06-03T19:08:15.714Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T19:08:15.714Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T19:08:15.715Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 38422","timestamp":"2015-06-03T19:08:26.985Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T19:08:27.038Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T19:08:28.485Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T19:08:30.183Z"}
+{"level":"warn","message":"Another message type : AsyncUpnpMessage","timestamp":"2015-06-03T19:08:30.462Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:12:34.922Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 43451","timestamp":"2015-06-03T19:12:50.278Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T19:12:50.318Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T19:15:20.855Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T19:15:20.856Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T19:15:20.857Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T19:15:20.858Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:22:12.047Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 59215","timestamp":"2015-06-03T19:22:15.388Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T19:22:15.423Z"}
+{"level":"warn","message":"Error: ER_BAD_FIELD_ERROR: Unknown column 'gateway_id' in 'where clause'\n    at Query.Sequence._packetToError (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:32:14)\n    at Query.ErrorPacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:78:18)\n    at Protocol._parsePacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:169:24)\n    at Parser.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Parser.js:62:12)\n    at Protocol.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:36:16)\n    at Socket.ondata (_stream_readable.js:540:20)\n    at Socket.emit (events.js:107:17)\n    at readableAddChunk (_stream_readable.js:163:16)\n    at Socket.Readable.push (_stream_readable.js:126:10)\n    at TCP.onread (net.js:538:20)\n    --------------------\n    at Query.Sequence (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:15:21)\n    at new Query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:11:12)\n    at Function.Connection.createQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:43:10)\n    at Connection.query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:90:26)\n    at Driver.execSimpleQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:91:11)\n    at Driver.find (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:133:7)\n    at Object.ChainFind.chain.all (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:193:16)\n    at Object.ChainFind.chain.run (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:152:16)\n    at async.waterfall.device.uuid (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\socket\\socketHandler.coffee:116:39)\n    at fn (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\async\\lib\\async.js:708:34)","timestamp":"2015-06-03T19:22:17.210Z"}
+{"level":"warn","message":"Error: ER_BAD_FIELD_ERROR: Unknown column 'gateway_id' in 'where clause'\n    at Query.Sequence._packetToError (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:32:14)\n    at Query.ErrorPacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:78:18)\n    at Protocol._parsePacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:169:24)\n    at Parser.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Parser.js:62:12)\n    at Protocol.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:36:16)\n    at Socket.ondata (_stream_readable.js:540:20)\n    at Socket.emit (events.js:107:17)\n    at readableAddChunk (_stream_readable.js:163:16)\n    at Socket.Readable.push (_stream_readable.js:126:10)\n    at TCP.onread (net.js:538:20)\n    --------------------\n    at Query.Sequence (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:15:21)\n    at new Query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:11:12)\n    at Function.Connection.createQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:43:10)\n    at Connection.query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:90:26)\n    at Driver.execSimpleQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:91:11)\n    at Driver.find (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:133:7)\n    at Object.ChainFind.chain.all (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:193:16)\n    at Object.ChainFind.chain.run (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:152:16)\n    at async.waterfall.device.uuid (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\socket\\socketHandler.coffee:116:39)\n    at fn (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\async\\lib\\async.js:708:34)","timestamp":"2015-06-03T19:22:17.985Z"}
+{"level":"warn","message":"Error: ER_BAD_FIELD_ERROR: Unknown column 'gateway_id' in 'where clause'\n    at Query.Sequence._packetToError (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:32:14)\n    at Query.ErrorPacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:78:18)\n    at Protocol._parsePacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:169:24)\n    at Parser.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Parser.js:62:12)\n    at Protocol.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:36:16)\n    at Socket.ondata (_stream_readable.js:540:20)\n    at Socket.emit (events.js:107:17)\n    at readableAddChunk (_stream_readable.js:163:16)\n    at Socket.Readable.push (_stream_readable.js:126:10)\n    at TCP.onread (net.js:538:20)\n    --------------------\n    at Query.Sequence (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:15:21)\n    at new Query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:11:12)\n    at Function.Connection.createQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:43:10)\n    at Connection.query (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\Connection.js:90:26)\n    at Driver.execSimpleQuery (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:91:11)\n    at Driver.find (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Drivers\\DML\\mysql.js:133:7)\n    at Object.ChainFind.chain.all (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:193:16)\n    at Object.ChainFind.chain.run (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\ChainFind.js:152:16)\n    at async.waterfall.device.uuid (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\socket\\socketHandler.coffee:116:39)\n    at fn (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\async\\lib\\async.js:708:34)","timestamp":"2015-06-03T19:22:18.128Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:23:22.620Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 49987","timestamp":"2015-06-03T19:23:26.375Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T19:23:26.402Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T19:40:32.221Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T19:40:32.222Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T19:40:32.222Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T19:40:32.222Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 34964","timestamp":"2015-06-03T19:41:21.733Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T19:41:21.754Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:43:32.039Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 35438","timestamp":"2015-06-03T19:43:54.517Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T19:43:54.549Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:48:36.860Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:50:42.907Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:51:54.830Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:53:07.289Z"}
+{"level":"warn","message":"[ORMError NOT_FOUND: Not found]\n    at Query._callback (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\orm\\lib\\Model.js:293:15)\n    at Query.Sequence.end (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:66:24)\n    at Query._handleFinalResultPacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:139:8)\n    at Query.EofPacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:123:8)\n    at Protocol._parsePacket (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:169:24)\n    at Parser.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Parser.js:62:12)\n    at Protocol.write (C:\\Users\\Jaewook\\WebstormProjects\\UpnpServer\\node_modules\\mysql\\lib\\protocol\\Protocol.js:36:16)\n    at Socket.ondata (_stream_readable.js:540:20)\n    at Socket.emit (events.js:107:17)\n    at readableAddChunk (_stream_readable.js:163:16)","timestamp":"2015-06-03T19:53:08.747Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:56:29.567Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:58:46.708Z"}
+{"level":"info","message":"aaaa","timestamp":"2015-06-03T19:58:47.992Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T19:58:48.024Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T19:59:24.321Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T19:59:26.981Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:00:15.391Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:00:16.199Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:01:03.248Z"}
+{"level":"info","message":"1","timestamp":"2015-06-03T20:01:05.439Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:02:22.236Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:03:59.983Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-03T20:04:01.895Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:04:55.746Z"}
+{"id":1,"gateway":1,"uuid":"fc4ec57e-b051-11db-88f8-0060085db3f6","level":"info","message":"","timestamp":"2015-06-03T20:04:58.930Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:06:30.014Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:07:01.382Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-03T20:07:03.073Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:08:16.922Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:08:42.180Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-03T20:08:43.466Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:09:22.990Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:10:02.502Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:10:27.941Z"}
+{"level":"info","message":"device not found","timestamp":"2015-06-03T20:10:29.188Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:11:21.114Z"}
+{"level":"info","message":"1","timestamp":"2015-06-03T20:11:23.304Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:12:15.139Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-03T20:12:16.720Z"}
+{"level":"info","message":"","timestamp":"2015-06-03T20:12:16.727Z"}
+{"level":"info","message":"device not found","timestamp":"2015-06-03T20:12:16.738Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:12:37.668Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:12:53.291Z"}
+{"level":"info","message":"1","timestamp":"2015-06-03T20:12:54.776Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-03T20:12:54.777Z"}
+{"level":"info","message":"","timestamp":"2015-06-03T20:12:54.778Z"}
+{"level":"info","message":"device not found","timestamp":"2015-06-03T20:12:54.786Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:13:31.739Z"}
+{"level":"info","message":"1","timestamp":"2015-06-03T20:13:32.924Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-03T20:13:32.925Z"}
+{"level":"info","message":"","timestamp":"2015-06-03T20:13:32.926Z"}
+{"level":"info","message":"device not found","timestamp":"2015-06-03T20:13:32.937Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:14:01.302Z"}
+{"level":"info","message":"1","timestamp":"2015-06-03T20:14:02.766Z"}
+{"level":"info","message":"1","timestamp":"2015-06-03T20:14:02.767Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:14:02.769Z"}
+{"level":"info","message":"1","timestamp":"2015-06-03T20:14:02.803Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:15:32.081Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-03T20:15:33.756Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:16:47.791Z"}
+{"level":"info","message":"undefined,undefined","timestamp":"2015-06-03T20:16:50.314Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-03T20:16:50.317Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:17:24.831Z"}
+{"level":"info","message":"tt,KAU-Arduino","timestamp":"2015-06-03T20:17:26.468Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-03T20:17:26.470Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:18:14.754Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-03T20:18:16.064Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:20:36.541Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:21:31.653Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:21:32.942Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-03T20:21:32.944Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:21:54.519Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:21:56.243Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:21:56.244Z"}
+{"level":"info","message":"-1","timestamp":"2015-06-03T20:21:56.246Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-03T20:21:56.247Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:22:56.467Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:22:58.726Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:22:58.728Z"}
+{"level":"info","message":"-1","timestamp":"2015-06-03T20:22:58.728Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-03T20:22:58.730Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:23:26.259Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 45099","timestamp":"2015-06-03T20:23:29.008Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T20:23:29.039Z"}
+{"level":"info","message":"size : 1","timestamp":"2015-06-03T20:23:29.040Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:24:56.075Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 58289","timestamp":"2015-06-03T20:25:02.429Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T20:25:02.451Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:25:08.911Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:25:08.911Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:25:08.912Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T20:28:14.039Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:28:14.040Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:28:14.040Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:28:14.041Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:28:40.058Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 54427","timestamp":"2015-06-03T20:28:42.045Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T20:28:42.083Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:28:51.629Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:28:51.629Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:28:51.629Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T20:34:28.737Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:34:28.738Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:34:28.738Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:34:28.738Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:34:39.664Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 56878","timestamp":"2015-06-03T20:34:42.131Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T20:34:42.179Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T20:34:57.458Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:34:57.458Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:34:57.459Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:34:57.459Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:35:43.676Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 47743","timestamp":"2015-06-03T20:35:45.212Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T20:35:45.254Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T20:36:35.596Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:36:35.597Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:36:35.598Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:36:35.598Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-03T20:36:54.782Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 37224","timestamp":"2015-06-03T20:36:57.562Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T20:36:57.604Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T20:47:13.673Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:47:13.674Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:47:13.674Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:47:13.674Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 55276","timestamp":"2015-06-03T20:47:38.612Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T20:47:38.645Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T20:49:03.048Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:49:03.049Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:49:03.050Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:49:03.050Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 40653","timestamp":"2015-06-03T20:49:18.074Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-03T20:49:18.128Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-03T20:50:46.909Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-03T20:50:46.910Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-03T20:50:46.910Z"}
+{"level":"info","message":"0","timestamp":"2015-06-03T20:50:46.910Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T12:33:47.619Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.33 41464","timestamp":"2015-06-10T12:33:57.649Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T12:33:57.682Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T13:00:43.725Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T13:00:43.729Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T13:00:43.731Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T13:00:43.732Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.33 41986","timestamp":"2015-06-10T13:03:02.913Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T13:03:02.933Z"}
+{"level":"warn","message":"Socket ERROR","timestamp":"2015-06-10T14:15:27.343Z"}
+{"level":"warn","message":"Error: read ECONNRESET\n    at exports._errnoException (util.js:746:11)\n    at TCP.onread (net.js:559:26)","timestamp":"2015-06-10T14:15:27.349Z"}
+{"level":"warn","message":"Error: read ECONNRESET\n    at exports._errnoException (util.js:746:11)\n    at TCP.onread (net.js:559:26)","timestamp":"2015-06-10T14:15:27.355Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T14:15:27.376Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-10T14:15:27.402Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-10T14:15:27.415Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T14:15:27.422Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T16:05:58.284Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 40880","timestamp":"2015-06-10T16:06:09.308Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:06:09.333Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:10:45.731Z"}
+{"level":"info","message":"aaa","timestamp":"2015-06-10T16:10:45.731Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T16:10:45.732Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:10:45.732Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 43217","timestamp":"2015-06-10T16:10:58.270Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:10:58.298Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:11:13.774Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T16:11:13.774Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T16:11:13.779Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:11:13.780Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 54410","timestamp":"2015-06-10T16:17:32.439Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:17:32.474Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T16:19:28.461Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T16:23:09.349Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T16:23:54.033Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T16:26:47.567Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 36507","timestamp":"2015-06-10T16:26:55.654Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:26:55.678Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T16:27:49.347Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T16:28:51.292Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 57437","timestamp":"2015-06-10T16:29:02.740Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:29:02.766Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T16:29:52.897Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:30:52.292Z"}
+{"level":"info","message":"cc","timestamp":"2015-06-10T16:30:52.292Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T16:30:52.292Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:30:52.292Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 40760","timestamp":"2015-06-10T16:31:00.331Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:31:00.367Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:34:43.822Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T16:34:43.823Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T16:34:43.823Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:34:43.824Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 35623","timestamp":"2015-06-10T16:34:53.659Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:34:53.689Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:37:35.244Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T16:37:35.245Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T16:37:35.245Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:37:35.246Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 57692","timestamp":"2015-06-10T16:37:45.596Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:37:45.620Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:39:41.593Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T16:39:41.593Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T16:39:41.593Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:39:41.594Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 34968","timestamp":"2015-06-10T16:39:53.378Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:39:53.419Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:41:56.061Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T16:41:56.062Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T16:41:56.062Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:41:56.062Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 47222","timestamp":"2015-06-10T16:42:39.487Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:42:39.527Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:43:34.265Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T16:43:34.266Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T16:43:34.266Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:43:34.266Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 50997","timestamp":"2015-06-10T16:43:57.206Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T16:43:57.235Z"}
+{"level":"warn","message":"Socket ERROR","timestamp":"2015-06-10T16:59:00.723Z"}
+{"level":"warn","message":"Error: read ECONNRESET\n    at exports._errnoException (util.js:746:11)\n    at TCP.onread (net.js:559:26)","timestamp":"2015-06-10T16:59:00.729Z"}
+{"level":"warn","message":"Error: read ECONNRESET\n    at exports._errnoException (util.js:746:11)\n    at TCP.onread (net.js:559:26)","timestamp":"2015-06-10T16:59:00.730Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T16:59:00.731Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-10T16:59:00.735Z"}
+{"level":"info","message":"undefined","timestamp":"2015-06-10T16:59:00.736Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T16:59:00.737Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T16:59:26.384Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T17:36:43.662Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 55932","timestamp":"2015-06-10T17:37:34.104Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T17:37:34.133Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T17:51:49.989Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 41330","timestamp":"2015-06-10T17:51:59.407Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T17:51:59.430Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T17:56:14.590Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T17:56:14.591Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T17:56:14.592Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T17:56:14.592Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 52476","timestamp":"2015-06-10T17:56:59.852Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T17:57:00.258Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T18:31:31.975Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T18:31:31.975Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T18:31:31.975Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T18:31:31.975Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T18:33:07.882Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T18:34:24.773Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T18:35:14.652Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T18:35:31.434Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T18:36:14.243Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T18:41:26.180Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 43543","timestamp":"2015-06-10T18:49:49.038Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T18:49:49.071Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T18:51:24.846Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T18:51:24.846Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T18:51:24.847Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T18:51:24.847Z"}
+{"level":"warn","message":"500","timestamp":"2015-06-10T18:51:49.059Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 46850","timestamp":"2015-06-10T18:51:52.941Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T18:51:52.980Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T19:05:51.749Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T19:05:51.750Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T19:05:51.750Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T19:05:51.750Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 48922","timestamp":"2015-06-10T19:06:36.313Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T19:06:36.346Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-10T23:31:56.957Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 53185","timestamp":"2015-06-10T23:32:57.346Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T23:32:57.374Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T23:38:37.996Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T23:38:37.998Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T23:38:37.999Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T23:38:37.999Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 45901","timestamp":"2015-06-10T23:38:41.614Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T23:38:41.631Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-10T23:39:34.647Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-10T23:39:34.648Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-10T23:39:34.648Z"}
+{"level":"info","message":"0","timestamp":"2015-06-10T23:39:34.648Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.4 45980","timestamp":"2015-06-10T23:39:46.441Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-10T23:39:46.484Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-11T00:58:26.157Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.28 59633","timestamp":"2015-06-11T00:58:37.901Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-11T00:58:37.904Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-11T01:06:59.573Z"}
+{"level":"info","message":"tt","timestamp":"2015-06-11T01:06:59.573Z"}
+{"level":"info","message":"c0336ce65b20b95f","timestamp":"2015-06-11T01:06:59.574Z"}
+{"level":"info","message":"0","timestamp":"2015-06-11T01:06:59.575Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.0.28 36529","timestamp":"2015-06-11T01:07:03.771Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-11T01:07:03.797Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-20T07:45:10.557Z"}
+{"level":"info","message":"TCP server listening on port 8484","timestamp":"2015-06-24T13:13:31.003Z"}
+{"level":"info","message":"CONNECTED ::ffff:192.168.1.3 60914","timestamp":"2015-06-24T13:14:34.907Z"}
+{"level":"info","message":"gatewayHandler","timestamp":"2015-06-24T13:14:34.939Z"}
+{"level":"info","message":"CLOSED undefined undefined","timestamp":"2015-06-24T13:30:34.485Z"}
+{"level":"info","message":"kjw","timestamp":"2015-06-24T13:30:34.486Z"}
+{"level":"info","message":"5eac4eb9a8ff49d4","timestamp":"2015-06-24T13:30:34.486Z"}
+{"level":"info","message":"0","timestamp":"2015-06-24T13:30:34.486Z"}

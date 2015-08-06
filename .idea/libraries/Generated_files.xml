@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/config.js" />
+        <item url="file://$PROJECT_DIR$/socket/socketHandler.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map-support/header-test/script.js" />
+        <item url="file://$PROJECT_DIR$/routes/routes.js" />
+        <item url="file://$PROJECT_DIR$/routes/databaseSchema.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map-support/browser-test/script.js" />
+        <item url="file://$PROJECT_DIR$/app.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/source-map-support/amd-test/script.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/config.js" />
+      <root url="file://$PROJECT_DIR$/socket/socketHandler.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map-support/header-test/script.js" />
+      <root url="file://$PROJECT_DIR$/routes/routes.js" />
+      <root url="file://$PROJECT_DIR$/routes/databaseSchema.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map-support/browser-test/script.js" />
+      <root url="file://$PROJECT_DIR$/app.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map-support/amd-test/script.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
